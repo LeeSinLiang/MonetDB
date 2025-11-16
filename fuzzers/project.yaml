@@ -1,0 +1,39 @@
+# SPDX-License-Identifier: MPL-2.0
+#
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0.  If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#
+# Copyright 2024, 2025 MonetDB Foundation
+
+# OSS-Fuzz project configuration for MonetDB
+
+homepage: "https://www.monetdb.org"
+language: c
+primary_contact: "info@monetdb.org"
+auto_ccs:
+  - "security@monetdb.org"
+
+# Sanitizers to enable
+sanitizers:
+  - address      # Detect memory errors (buffer overflows, use-after-free, etc.)
+  - undefined    # Detect undefined behavior
+  - memory       # Detect uninitialized memory reads
+
+# Fuzzing engines
+fuzzing_engines:
+  - libfuzzer    # Primary fuzzing engine
+  - afl          # Alternative fuzzing engine
+
+# Build architecture
+architectures:
+  - x86_64
+
+# Main language (C)
+main_repo: "https://github.com/MonetDB/MonetDB.git"
+
+# File bug reports at
+file_github_issue: true
+
+# Help URL
+help_url: "https://www.monetdb.org/documentation/"
