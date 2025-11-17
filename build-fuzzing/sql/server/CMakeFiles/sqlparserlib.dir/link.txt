@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar qc libsqlparserlib.a CMakeFiles/sqlparserlib.dir/sql_atom.c.o CMakeFiles/sqlparserlib.dir/sql_datetime.c.o CMakeFiles/sqlparserlib.dir/sql_decimal.c.o CMakeFiles/sqlparserlib.dir/sql_scan.c.o CMakeFiles/sqlparserlib.dir/sql_symbol.c.o CMakeFiles/sqlparserlib.dir/sql_parser.tab.c.o
+/usr/bin/llvm-ranlib libsqlparserlib.a

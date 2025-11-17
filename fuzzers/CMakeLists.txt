@@ -48,6 +48,7 @@ target_link_libraries(fuzz_monetdbe
 
 target_include_directories(fuzz_monetdbe
   PRIVATE
+    ${CMAKE_BINARY_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/../tools/monetdbe
     ${CMAKE_CURRENT_SOURCE_DIR}/../gdk
     ${CMAKE_CURRENT_SOURCE_DIR}/../common/stream
@@ -66,6 +67,7 @@ target_link_libraries(fuzz_type_conversion
 
 target_include_directories(fuzz_type_conversion
   PRIVATE
+    ${CMAKE_BINARY_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/../gdk
 )
 
@@ -83,6 +85,7 @@ target_link_libraries(fuzz_csv_parser
 
 target_include_directories(fuzz_csv_parser
   PRIVATE
+    ${CMAKE_BINARY_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/../gdk
     ${CMAKE_CURRENT_SOURCE_DIR}/../common/stream
 )

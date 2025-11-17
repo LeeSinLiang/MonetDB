@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  ".1"
+  "CMakeFiles/mutils.dir/mcrypt.c.o"
+  "CMakeFiles/mutils.dir/mcrypt.c.o.d"
+  "CMakeFiles/mutils.dir/md5.c.o"
+  "CMakeFiles/mutils.dir/md5.c.o.d"
+  "CMakeFiles/mutils.dir/msabaoth.c.o"
+  "CMakeFiles/mutils.dir/msabaoth.c.o.d"
+  "CMakeFiles/mutils.dir/mutf8.c.o"
+  "CMakeFiles/mutils.dir/mutf8.c.o.d"
+  "CMakeFiles/mutils.dir/mutils.c.o"
+  "CMakeFiles/mutils.dir/mutils.c.o.d"
+  "CMakeFiles/mutils.dir/muuid.c.o"
+  "CMakeFiles/mutils.dir/muuid.c.o.d"
+  "CMakeFiles/mutils.dir/mwidth.c.o"
+  "CMakeFiles/mutils.dir/mwidth.c.o.d"
+  "CMakeFiles/mutils.dir/prompt.c.o"
+  "CMakeFiles/mutils.dir/prompt.c.o.d"
+  "CMakeFiles/mutils.dir/revision.c.o"
+  "CMakeFiles/mutils.dir/revision.c.o.d"
+  "CMakeFiles/mutils.dir/ripemd160.c.o"
+  "CMakeFiles/mutils.dir/ripemd160.c.o.d"
+  "CMakeFiles/mutils.dir/rmd160.c.o"
+  "CMakeFiles/mutils.dir/rmd160.c.o.d"
+  "CMakeFiles/mutils.dir/sha.c.o"
+  "CMakeFiles/mutils.dir/sha.c.o.d"
+  "CMakeFiles/mutils.dir/sha224-256.c.o"
+  "CMakeFiles/mutils.dir/sha224-256.c.o.d"
+  "CMakeFiles/mutils.dir/sha384-512.c.o"
+  "CMakeFiles/mutils.dir/sha384-512.c.o.d"
+  "libmutils-11.56.0.pdb"
+  "libmutils-11.56.0.so"
+  "libmutils-11.56.0.so.1"
+  "libmutils-11.56.0.so.1.0.1"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/mutils.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

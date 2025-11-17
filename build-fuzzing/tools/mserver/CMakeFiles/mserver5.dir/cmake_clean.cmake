@@ -1,0 +1,14 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/mserver5.dir/monet_version.c.o"
+  "CMakeFiles/mserver5.dir/monet_version.c.o.d"
+  "CMakeFiles/mserver5.dir/mserver5.c.o"
+  "CMakeFiles/mserver5.dir/mserver5.c.o.d"
+  "mserver5"
+  "mserver5-11.56.0"
+  "mserver5.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/mserver5.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
